@@ -17,7 +17,7 @@ else
 for(int i=0;i<n;++i)
 {
 Serial.println(WiFi.RSSI(i));
-if (WiFi.RSSI(i)!=('OLUDENIZ')) 
+if (WiFi.RSSI(i)!=('WiFi adresi')) 
 continue;
 Serial.print(WiFi.RSSI(i));
 Serial.println((WiFi.encryptionType(i) == ENC_TYPE_NONE)?" ":"*");
